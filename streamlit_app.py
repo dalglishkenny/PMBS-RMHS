@@ -3,7 +3,7 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import pandas as pd
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+meta name="viewport" content="width=device-width, initial-scale=1"
 
 
 # Title and Description

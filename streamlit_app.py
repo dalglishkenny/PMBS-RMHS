@@ -9,7 +9,7 @@ st.markdown("This is a web app for the RMHS Team. Team urang Sigat PMB Silicon."
 
 # Establish Connection
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-credentials = ServiceAccountCredentials.from_json_keyfile_name("C:/Users/User/Desktop/RMHS Data Entry Form-Project/.streamlit/entry-form-rmhs-cleaning-fdf2ac821627.json", scope)
+credentials = ServiceAccountCredentials.from_json_keyfile_name("entry-form-rmhs-cleaning-fdf2ac821627.json", scope)
 gc = gspread.authorize(credentials)
 spreadsheet = gc.open_by_key("1Vr7HyWgzbCF3rqLKndZHkl2GUdauzsorRObzH5ObkCc")
 worksheet_cleaning = spreadsheet.worksheet("CleaningDetail")
